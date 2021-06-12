@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'api',
     'api.category',
     'api.product',
-   # 'api.user',
+    'api.user',
 ]
 
 REST_FRAMEWORK = {
@@ -138,4 +138,4 @@ MEDIA_ROOT = BASE_DIR / 'media'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CORS_ALLOW_ALL_ORIGINS = True
-#AuTH_USER_MODEL = "api.user.CustomUser"
+AuTH_USER_MODEL = "api.user.CustomUser"
